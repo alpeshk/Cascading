@@ -1,0 +1,10 @@
+KeyField|SplitStringField|DateField|NumericField|SplitStringField2|DateField2|NumericField2
+1|test;value1|2015-11-20|50.0|test;value1|2015-11-20|50.0
+2|String1;field1||1000.0|String1;field1||1000.0
+3|String2;split2|2015-11-21|2000.0|String2;split2|2015-11-21|2000.0
+4|testvalue;split,key4|2015-12-12|50.0|testvalue;split,key4|2015-12-12|50.0
+5|test,value2;split|2015-12-12|110.0|test,value2;split|2015-12-12|110.0
+6|;|2015-12-13|0.0|;|2015-12-13|0.0
+6|;|2015-12-13|0.0|split1;split2|2015-12-12|
+6|split1;split2|2015-12-12||;|2015-12-13|0.0
+6|split1;split2|2015-12-12||split1;split2|2015-12-12|
